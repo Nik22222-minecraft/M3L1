@@ -8,8 +8,8 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return '''<h1>Привет</h1> 
-<p> <a href="/random_fact">Посмотреть случайный факт!</p>
-<p> <a href="/password">Сделать случайный пароль</p>'''
+<p> <a href="/random_fact"> Посмотреть случайный факт!</a></p>
+<p> <a href="/password"> Сделать случайный пароль</a></p>'''
     
  
 facts_list = ['''Большинство людей,
